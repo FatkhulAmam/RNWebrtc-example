@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primary_dark">#660B0B0B</color>
+
+	<item name="splashBackground" type="color">#fafafc</item>
+
+	<item name="notification_text" type="color">#333333</item>
+
+	<color name="green">#00B37A</color>
+
+	<color name="red">#E84949</color>
+
+	<color name="black_600">#3A3A3A</color>
+</resources>

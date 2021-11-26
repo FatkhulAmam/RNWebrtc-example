@@ -5,4 +5,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="incoming_call_activity_fabs_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <!--        <item name="maxImageSize">40dp</item>-->
+        <!--        <item name="fabCustomSize">65dp</item>-->
+    </style>
+
 </resources>

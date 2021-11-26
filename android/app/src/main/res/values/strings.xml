@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">reactNativeVideocall</string>
+    <string name="share_extension_name">ShareCallink</string>
+    <string name="no_browser_found">No Browser Found</string>
+    <string name="default_notification_channel_id">Callink channel</string>
+    <string name="cancel_me">Cancel Me</string>
+    <string name="update_me">Update Me</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="client_title">Client</string>
+    <string name="incoming_call_title">Incoming Callink</string>
+    <string name="answer_call_button_text">ACCEPT</string>
+    <string name="hang_up_button_text">REJECT</string>
+    <string name="client_img_description">Image client</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="calling_user">Callink User</string>
 </resources>

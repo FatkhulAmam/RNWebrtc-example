@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537903605863",
+    "project_id": "canvas-e635a",
+    "storage_bucket": "canvas-e635a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537903605863:android:7924f9e1b75feb92f34cc2",
+        "android_client_info": {
+          "package_name": "com.reactnativevideocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537903605863-7gg60e0shmr56rbfurtl21u1mvs6vc8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXyc-G4lmPeTD7lEdouzw4XD9Q-spgKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537903605863-7gg60e0shmr56rbfurtl21u1mvs6vc8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

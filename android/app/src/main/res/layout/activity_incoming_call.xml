@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="50dp"
+    android:background="@drawable/call_bg"
+    android:keepScreenOn="true">
+
+    <TextView
+        android:id="@+id/incoming_call_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/incoming_call_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/caller_name"/>
+
+    <TextView
+        android:id="@+id/caller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/client_title"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/incoming_call_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/activity_caller_photo"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activity_hang_up_button"
+        style="@style/incoming_call_activity_fabs_style"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="96dp"
+        android:contentDescription="@string/hang_up_button_text"
+        android:src="@drawable/ic_hang_up_call"
+        app:backgroundTint="@color/red"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/activity_caller_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toBottomOf="@id/caller_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activity_answer_call_button"
+        style="@style/incoming_call_activity_fabs_style"
+        android:layout_marginRight="72dp"
+        android:contentDescription="@string/answer_call_button_text"
+        android:src="@drawable/ic_answer_call"
+        app:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="@id/activity_hang_up_button"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
